@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerSiksha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="https://career-shiksha.com/path/to/your/icon.png" type="image/png">
+    <link rel="shortcut icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class=" w-[170px] h-[80px] mt-[16px] ml-[675px] size-20px">
+        <a href="https://career-shiksha.com/">
+            <img src="https://career-shiksha.com/wp-content/uploads/2024/01/LOGO-CS.jpg"  alt="">
+        </a>
+    </div>
+    <div>
+        <a href="https://career-shiksha.com/">
+            <h1 class="text-3xl font-bold font-Roboto text-blue-00 mt-[-23px] ml-[710px]">CS.com</h1>
+        </a>
+    </div>
+
+    <div class="w-[1420px] h-[88px] bg-[#111564] mt-[25px] ml-[58px] text-white text-xl">
+        <div class="ml-[50px] mt-[20px] flex gap-[20px] pt-[10px]">
+            <a href="https://career-shiksha.com/">
+            <button>HOME</button>
+            </a>
+            <a href="https://career-shiksha.com/about-us/">
+            <button>About Us</button>
+            </a>
+            <a href=""></a>
+            <button>RGPV<i class="ri-arrow-drop-down-line"> </i></button>
+            <a href="https://career-shiksha.com/mtech/">
+            <button>M.TECH.</button>
+            </a>
+            <a href="https://career-shiksha.com/gate-exam/"></a>
+            <button>GATE</button>
+            </a>
+            <a href="https://career-shiksha.com/resume/">
+            <button>RESUME</button>
+            </a>
+            <a href="https://career-shiksha.com/tips-for-students/">
+            <button>TIPS FOR STUDENT</button>
+            </a>
+            <a href="https://career-shiksha.com/terms-of-use/">
+            <button>TERM OF USE</button>
+            </a>
+            <a href="https://career-shiksha.com/join-us/">
+            <button>JOIN US</button>
+            </a>
+            <a href="https://career-shiksha.com/privacy-policy/">
+            <button>Privacy Policy</button>
+            </a>
+            <a href="https://career-shiksha.com/refund-cancellation-policy/">
+            <button>Refund/Cancellation Policy</button>
+            </a>
+        </div>
+    </div>
+        <a href="https://career-shiksha.com/contact/">    
+        <button class="text-xl  ml-[710px] text-white relative top-[-35px]">Contact us</button>
+        </a>
+
+        <div style="text-align: center; margin-top: -15px; position: relative;">
+            <img class="w-[1500px] h-[450px] mx-auto " src="https://career-shiksha.com/wp-content/themes/neve-fse/assets/img/neve-fse-img12.jpg" alt="">
+            <h2 class="text-3xl font-semibold absolute top-[50px] left-1/2 transform -translate-x-1/2">Create and grow with your <br> unique ideas</h2>
+            <h3 class="text-2xl absolute top-[150px] left-1/2 transform -translate-x-1/2">I am a</h3>
+            <button class="font-semibold bg-[#325ce8] absolute rounded-xl mt-[-235px] ml-[-135px] pt-[18px] pb-[20px] pr-[27px] pl-[27px] text-white">Student</button>
+            <button class="font-semibold rounded-xl absolute mt-[-235px] ml-[-5px] pt-[18px] pb-[17px] pr-[45px] pl-[45px] text-black border-2 border-black">Faculty</button>
+            <div class="w-[1500px] h-[500px] bg-[#F0F0F0] ml-[10px] mt-[-110px] relative">
+
+
+
+                <div class="absolute left-[150px] top-[-250px]">
+                    <a href="https://career-shiksha.com/rgpv/">
+                       <button class="bg-[#325ce8] absolute mt-[340px] ml-[5px] pt-[20px] pb-[20px] pl-[20px] pr-[20px] h-[83px] w-[83px] rounded-full">
+                        <img src="https://career-shiksha.com/wp-content/themes/neve-fse/assets/img/neve-fse-img01.svg" alt="">
+                       </button>
+                    </a>
+                <div class="mt-[450px]">
+                    <a href="https://career-shiksha.com/rgpv/">
+                      <h2 class="font-semibold text-2xl ml-[65%]">RGPV</h2>
+                        <a href="https://career-shiksha.com/rgpv/">
+                            <p class="text-2xl font-normal absolute mt-[22px] ml-[40px]">Everything&nbsp;for&nbsp;B.tech.<span class="ml-[-55px]"><br>students....&nbsp;Read</span></p> 
+                        </a>
+                    </a>
+                    </div>
+
+
+
+
+
+
+                    <div class="absolute left-[310px] top-[280px]">
+                        <a href="https://career-shiksha.com/imp-questions-btech/">
+                           <button class="bg-[#325ce8] mt-[60px] ml-[-10px] pt-[20px] pb-[20px] pl-[20px] pr-[20px] h-[83px] w-[83px] rounded-full flex items-center justify-center">
+                            <img src="https://career-shiksha.com/wp-content/themes/neve-fse/assets/img/neve-fse-img02.svg" alt="">
+                           </button>
+                        </a>
+                    <div class="mt-[18px] absolute">
+                        <a href="https://career-shiksha.com/imp-questions-btech/">
+                          <h2 class="font-semibold text-2xl ml-[-5%]">Important&nbsp;Question</h2>
+                            <a href="https://career-shiksha.com/imp-questions-btech/">
+                                <p class="text-2xl font-normal absolute mt-[20px] ml-[-9px]">Unit&nbsp;wise&nbsp;important <br> question&nbsp;for&nbsp;B.tech.<span class="ml-[-0px]"><br>students&nbsp;from <span class="ml-[55px]"> <br>RGPV....Read <span class="ml-[70px]"></span> </span> </span></p> 
+                            </a>
+                        </a>
+                    </div>
+
+
+
+
+                    
+                    <div class="absolute left-[310px] top-[-280px]">
+                        <a href="https://career-shiksha.com/previous-year-paper/">
+                           <button class="bg-[#325ce8] mt-[340px] ml-[-10px] pt-[20px] pb-[20px] pl-[20px] pr-[20px] h-[83px] w-[83px] rounded-full">
+                            <img src="https://career-shiksha.com/wp-content/themes/neve-fse/assets/img/neve-fse-img02.svg" alt="">
+                           </button>
+                        </a>
+                    <div class="mt-[18px]">
+                        <a href="https://career-shiksha.com/previous-year-paper/">
+                          <h2 class="font-semibold text-2xl ml-[8%]">Previous&nbsp;Year <span class="ml-[-50px]"> <br>Question</span>  </h2>
+                            <a href="https://career-shiksha.com/previous-year-paper/">
+                                <p class="text-2xl font-normal absolute mt-[22px] ml-[10px]">It&nbsp;is&nbsp;Observed&nbsp;that<span class="ml-[-20px]"><br>more&nbsp;than&60% <br>question&nbsp;repeats <br>from&nbsp;last&nbsp;5&nbsp;years <br>papers....&nbsp;Read <span class="ml-[20px]"></span> </span></p> 
+                            </a>
+                        </a>
+                        </div>
+
+
+
+                        <div class="absolute left-[310px] top-[280px]">
+                            <a href="https://career-shiksha.com/syllabus-btech-rgpv/">
+                               <button class="bg-[#325ce8] mt-[60px] ml-[-10px] pt-[20px] pb-[20px] pl-[20px] pr-[20px] h-[83px] w-[83px] rounded-full flex items-center justify-center">
+                                <img src="https://career-shiksha.com/wp-content/themes/neve-fse/assets/img/neve-fse-img03.svg" alt="">
+                               </button>
+                            </a>
+                        <div class="mt-[18px] absolute">
+                            <a href="https://career-shiksha.com/syllabus-btech-rgpv/">
+                              <h2 class="font-semibold text-2xl ml-[-5%]">Syllabus&nbsp;\&nbsp;Scheme <span class="ml-[200px]"></span> </h2>
+                                <a href="https://career-shiksha.com/syllabus-btech-rgpv/">
+                                    <p class="text-2xl font-normal absolute mt-[20px] ml-[-9px]">It&nbsp;is&nbsp;really&nbsp;very&nbsp;helpful <br> to&nbsp;plan&nbsp;your<span class="ml-[100px]"><br>study....&nbsp;Read <span class="ml-[90px]"></span> </span></p> 
+                                </a>
+                            </a>
+                        </div>
+
+
+                        
+    
+<div class="w-[1500px] h-[321.5px] bg-[#F0F0F0] ml-[-1080px] mt-[340px] absolute">
+    <img class="ml-[770px]" src="http://career-shiksha.com/wp-content/uploads/2024/07/RESUME.jpg" alt="">
+    <h4 class="text-2xl font-semibold mt-[-265px] ml-[-900px]">Resume Making</h4>
+    <h5 class="text-2xl font-normal mt-[30px] ml-[-610px]">A perfect resume can increase the chance of <br> getting job by 74% <span class="ml-[270px]"></span> </h5>
+    <button class="font-semibold bg-[#325ce8]  rounded-md mt-[30px] ml-[-940px] pt-[20px] pb-[22px] pr-[24px] pl-[24px] text-white hover:scale-[0.98]">Read More</button>
+</div>
+
+<div>
+    <img class="mt-[750px] ml-[-900px]" src="http://career-shiksha.com/wp-content/uploads/2024/07/CAREER.jpg" alt="">
+    <h6 class="text-2xl font-semibold mt-[-200px] ml-[-1000px]">Career</h6>
+    <h1 class="text-2xl ml-[-590px] mt-[30px]">Believe in yourself. You will be unstoppable…..</h1>
+    <button class="font-semibold bg-[#325ce8]  rounded-md mt-[30px] ml-[-940px] pt-[20px] pb-[22px] pr-[24px] pl-[24px] text-white hover:scale-[0.98]">Read More</button>
+
+</div>
+    <div class="bg-black h-[270px] w-[1500px] mt-[30px] ml-[-1080px] relative">
+        <img  class=" absolute mt-[10px] ml-[200px]" src="http://career-shiksha.com/wp-content/uploads/2024/07/Admission.jpg" alt="">
+        <h6 class="text-2xl font-semibold absolute text-white mt-[40px] ml-[750px]">Admission</h6>
+        <h1 class="text-2xl ml-[750px] absolute text-white mt-[95px]">A honest advice can change your life...</h1>
+        <button class="font-semibold bg-[#325ce8] absolute rounded-md mt-[140px] ml-[-4px] pt-[20px] pb-[22px] pr-[24px] pl-[24px] text-white hover:scale-[0.98]">Read More</button>
+        <button class="font-semibold border-2 border-white absolute rounded-md mt-[140px] ml-[140px] pt-[20px] pb-[22px] pr-[40px] pl-[40px] text-white hover:scale-1 hover:scale-[0.98]">Get in Touch</button>
+</div>
+
+<div class="w-[1500px] h-[321.5px]  bg-black mt-[20px] ml-[-1080px]">
+    <h1 class="font-semibold text-white text-2xl  absolute mt-[30px] ml-[630px]">Let's work together ...</h1>
+
+    <div class="flex items- justify-center absolute ml-[720px] mt-[70px] bg-black">
+    <a class="bg-blue-400  pt-[10px]  absolute pb-[10px] pl-[13px] pr-[13px] ml-[-90px] rounded-3xl text-white hover:scale-[1.1] hover:duration-200 transform transition-transform" href="<i class="ri-telegram-2-fill"></i><i class="ri-telegram-2-line"></i></a>
+    <a class="bg-green-400 pt-[10px]  absolute pb-[10px] pl-[13px] pr-[13px] ml-[10px] rounded-3xl text-white hover:scale-[1.1]  hover:duration-200" href="https://chat.whatsapp.com/C6ce1JsS9IbHx6PhAdEfEF"><i class="ri-whatsapp-line"></i></a>
+    <a class="bg-red-600 pt-[10px]  absolute pb-[10px] pl-[13px] pr-[13px] ml-[110px]  rounded-3xl text-white hover:scale-[1.1]  hover:duration-200" href="https://www.youtube.com/channel/UCtFkSAtV7mqoRJBJR5zCLpA"><i class="ri-youtube-line"></i></a>
+    <a class="bg-pink-600 pt-[10px]  absolute pb-[10px] pl-[13px] pr-[13px] ml-[210px] rounded-3xl text-white hover:scale-[1.1]  hover:duration-200" href="https://www.instagram.com/career_shiksha"><i class="ri-instagram-line"></i></a>
+    </div>
+    <a href="https://t.me/career_shiksha_rgpv">
+    <button class="font-semibold bg-[#325ce8]  rounded-md mt-[125px] ml-[-5px] pt-[8px] pb-[10px] pr-[62px] pl-[62px] text-white hover:scale-[0.98]">Join our Telegram Group</button>
+    </a>
+    <a href="https://chat.whatsapp.com/C6ce1JsS9IbHx6PhAdEfEF">
+    <button class="font-semibold bg-[#325ce8] absolute rounded-md mt-[190px] ml-[-304px] pt-[8px] pb-[10px] pr-[60px] pl-[60px] text-white hover:scale-[0.98]">Join our Whatsapp Group</button>
+    </a>
+    <a href="https://play.google.com/store/apps/details?id=appinventor.ai_contactcareershiksha.Career_Shiksha">
+    <button class="font-semibold bg-[#325ce8] rounded-md absolute mt-[255px] ml-[-304px] pt-[8px] pb-[10px] pr-[76px] pl-[76px] text-white hover:scale-[.98]">Get App in Play Store</button>
+    </a>
+</div>
+
+<div class=" w-[210px] h-[90px] mt-[60px] ml-[-450px] size-20px">
+    <a href="https://career-shiksha.com/">
+        <img src="https://career-shiksha.com/wp-content/uploads/2024/01/LOGO-CS.jpg"  alt="">
+    </a>
+
+    <a href="https://wordpress.org/">
+        <h1 class="text-3xl text-md ml-[-300px] mt-[20px]" style="white-space: nowrap;">career&nbsp;-&nbsp;shiksha.com&nbsp;is&nbsp;operated&nbsp;by&nbsp;LogicalNext&nbsp;Digital&nbsp;Solution</h1>
+    </a>
+    <div class=" absolute top-[2000px] left-[-380px]">
+        <a class="bg-blue-400  pt-[10px]  absolute pb-[10px] pl-[13px] mt-[-40px] pr-[13px] ml-[-50px] rounded-3xl text-white hover:scale-[1.1] hover:duration-200 transform transition-transform" href="<i class="ri-telegram-2-fill"></i><i class="ri-telegram-2-line"></i></a>
+        <a class="bg-green-400 pt-[10px]  absolute pb-[10px] pl-[13px] mt-[-40px] pr-[13px] ml-[2px] rounded-3xl text-white hover:scale-[1.1]  hover:duration-200" href="https://chat.whatsapp.com/C6ce1JsS9IbHx6PhAdEfEF"><i class="ri-whatsapp-line"></i></a>
+        <a class="bg-red-600 pt-[10px]  absolute pb-[10px] pl-[13px] mt-[-40px]  pr-[13px] ml-[55px] rounded-3xl text-white hover:scale-[1.1]  hover:duration-200" href="https://www.youtube.com/channel/UCtFkSAtV7mqoRJBJR5zCLpA"><i class="ri-youtube-line"></i></a>
+        <a class="bg-pink-600 pt-[10px]  absolute pb-[10px] pl-[13px] mt-[-40px]  pr-[13px] ml-[108px] rounded-3xl text-white hover:scale-[1.1]  hover:duration-200" href="https://www.instagram.com/career_shiksha"><i class="ri-instagram-line"></i></a>
+    </div>
+</div>
+</body>
+</html>
